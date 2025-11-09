@@ -211,15 +211,21 @@ Ultimately, this assessment highlights that understanding planar transmission li
 
 1.David M. Pozar, Microwave Engineering, 5th Edition, Wiley, 2021.
 Comprehensive coverage of microstrip and stripline transmission lines, S-parameters, reflection, VSWR, and real-world RF design examples.
+
 2.John D. Kraus & Ronald J. Marhefka, Antennas for All Applications, 3rd Edition, McGraw-Hill, 2002.
 Includes sections on microstrip patch antennas and their use in avionics and radar systems.
+
 3.Gonzalez, Gonzalo, Microwave Transistor Amplifiers: Analysis and Design, 2nd Edition, Prentice Hall, 1997.
 Covers S-parameters, power transfer, and practical RF circuit design considerations.
+
 4.R. E. Collin, Foundations for Microwave Engineering, 2nd Edition, Wiley-IEEE Press, 2001.
 Excellent for understanding planar transmission lines, TEM and quasi-TEM propagation, and network analysis.
+
 5.Pozar, D. M., “Planar Microwave Engineering in Avionics Systems,” IEEE Transactions on Microwave Theory and Techniques, 2018.
 Discusses microstrip/stripline applications in radar and communication modules.
+
 6.Xu, W., et al., “S-Parameter Analysis of High-Speed Backplane Interconnects for Aerospace Applications,” IEEE Access, 2020.
 Explains S-parameter measurement and modeling in high-frequency avionics PCBs.
+
 7.Hong, J. S., & Lancaster, M. J., Microstrip Filters for RF/Microwave Applications, Wiley, 2001.
 Focuses on planar filter design using microstrip and stripline structures.
