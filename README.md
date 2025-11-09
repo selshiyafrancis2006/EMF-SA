@@ -62,7 +62,8 @@ Where:
 𝑍𝐿 = load impedance (e.g., antenna, filter)
 𝑍0 = characteristic impedance of the stripline
 
-<img width="1215" height="888" alt="image" src="https://github.com/user-attachments/assets/8ba18983-0f55-41c8-8a8e-bc3516151114" />
+<img width="280" height="213" alt="image" src="https://github.com/user-attachments/assets/9bc29cc9-e2ec-4852-9a05-6637c5218ed0" />
+
 
 Example Problem: Reflection Coefficient in Avionics
 
