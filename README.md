@@ -17,7 +17,7 @@ This report explores the real-world applications of planar transmission lines in
 | Key Challenges | Signal integrity, reliability, thermal stability, miniaturization                            |
 | PCB Usage      | Multi-layer boards with embedded microstrip and stripline traces for high-frequency circuits |
 
-Modern avionics systems include:
+<h2>Modern avionics systems include:</h2>
 * Radar modules for collision avoidance and terrain mapping
 * Satellite communication links for air traffic control
 * Navigation systems including GPS, inertial navigation, and autopilot controls
@@ -35,9 +35,6 @@ Characteristic impedance (Z₀) is critical for matching antennas to transceiver
 Reflection coefficient (Γ) and VSWR ensure maximum power transfer.
 S-parameters are used to optimize couplers, filters, and antenna feed networks.
 
-Real-World Example in Avionics systems:
-The Boeing 787 Dreamliner uses microstrip patch arrays in its SATCOM system for reliable in-flight satellite communication.
-
 <h2>4. Striplines in Avionics</h2>
 
 Structure: Conductor embedded between two ground planes within a multilayer PCB.
@@ -50,9 +47,6 @@ Fully shielded TEM propagation reduces radiation loss and crosstalk.
 Accurate impedance control is critical for high-frequency signal integrity.
 Insertion loss (IL) and return loss (RL) calculations ensure efficient power transfer through filters and couplers.
 
-Real-World Example in Avionics Systems:
-F-35 Lightning II radar modules use stripline-based filters and couplers to maintain signal integrity in high-power, high-frequency applications.
-
 <h2>5. Reflection Coefficient in Avionics Striplines</h2>
 
 The reflection coefficient (Γ) quantifies how much of a signal is reflected back due to impedance mismatch between the transmission line and the load. In avionics, reflection must be minimized to ensure that radar and communication signals are efficiently transmitted, preventing loss of critical information.
@@ -64,37 +58,34 @@ Where:
 
 <img width="280" height="213" alt="image" src="https://github.com/user-attachments/assets/9bc29cc9-e2ec-4852-9a05-6637c5218ed0" />
 
-
-Example Problem: Reflection Coefficient in Avionics
-
-Problem Statement:
+<h2>Problem Statement:</h2>
 
 <img width="1050" height="745" alt="image" src="https://github.com/user-attachments/assets/0bbdcf15-72bf-4c5d-8494-8f64ed4ae233" />
 
 <h2>5. Voltage Standing Wave Ratio (VSWR) in Avionics Systems</h2>
 
-Introduction:
+<h2>Introduction:</h2>
 Voltage Standing Wave Ratio (VSWR) is a measure of how efficiently RF power is transmitted from a source through a transmission line to a load. It quantifies the effect of impedance mismatches, which cause part of the signal to reflect back toward the source.
 
 VSWR = 1 + ∣Γ∣ / 1−∣Γ∣
 Where ∣Γ∣ is the magnitude of the reflection coefficient at the load. A VSWR of 1 indicates perfect matching, while higher values indicate greater reflection.
 
-<img width="1004" height="590" alt="image" src="https://github.com/user-attachments/assets/440d0215-bc8f-4e4d-9dfa-513084ac859e" />
+<img width="311" height="220" alt="image" src="https://github.com/user-attachments/assets/c4387bce-cbf8-4ff6-950d-ce2cebd7b5a5" />
 
-Use in Avionics Systems:
+<h2>Use in Avionics Systems:</h2>
 
 Radar Modules: Stripline or microstrip traces connect transmitters, filters, and antennas. A low VSWR ensures that most of the RF power reaches the antenna, improving detection range and accuracy.
 Satellite Communication (SATCOM): Matching the transmission line to the receiver input ensures strong, interference-free signals, which is critical for telemetry and control.
 Signal Integrity: High-frequency avionics circuits are sensitive to reflections, which can distort radar pulses or communication signals. Monitoring VSWR allows engineers to minimize reflections and maintain reliable system performance.
 
-Problem Statement:
+<h2>Problem Statement:</h2>
 In an avionics radar module, a stripline with characteristic impedance 𝑍0 = 300Ω connects to a receiver input with impedance 𝑍𝑟 = 300 + 𝑗400Ω. Calculate the Voltage Standing Wave Ratio (VSWR) along the stripline.
 
 <img width="1075" height="573" alt="image" src="https://github.com/user-attachments/assets/9e87dabe-48f6-4369-bf01-bd3d7c799ba7" />
 
 <h2>6. Return Loss in Avionics Systems</h2>
 
-Introduction:
+<h2>Introduction:</h2>
 Return Loss (RL) is a measure of how much power is reflected back from a load or port due to impedance mismatch. It is closely related to the reflection coefficient Γ and is expressed in decibels (dB):
 RL = −20log10∣Γ∣
 High Return Loss → low reflection, better power transfer
@@ -102,7 +93,7 @@ Low Return Loss → significant reflection, inefficient power delivery
 
 <img width="1135" height="564" alt="image" src="https://github.com/user-attachments/assets/3289e1d0-5fa7-4005-ba9b-8f732cae286f" />
 
-Application in Avionics:
+<h2>Application in Avionics:</h2>
 
 Radar Modules: Return loss is used to ensure that transmitters, filters, and antennas are properly matched to stripline/microstrip connections, minimizing reflected power that could distort radar pulses.
 Communication Systems: In SATCOM or aircraft communication modules, designers measure return loss to prevent signal degradation due to mismatched connectors or transmission lines.
@@ -112,14 +103,14 @@ Receiver Protection: High reflections can damage sensitive RF receivers. Maintai
 
 <h2>7. Insertion Loss (IL) in Avionics Systems</h2>
 
-Introduction:
+<h2>Introduction:</h2>
 Insertion Loss (IL) quantifies the loss of signal power when a component or network is inserted into a transmission path. It is a critical parameter in RF and microwave systems, as it indicates how efficiently power is transmitted through a device like a filter, coupler, or transmission line.
 
 IL (dB) = −20log10∣𝑆21∣
 Low IL → Most power reaches the next stage (desirable)
 High IL → Significant power is lost (undesirable)
 
-Application in Avionics Systems
+<h2>Application in Avionics Systems:</h2>
 
 Radar Modules: Filters and couplers must have low insertion loss to maintain radar pulse strength and detection range.
 Antenna Feeds: Low IL ensures that maximum power reaches the antenna, improving communication and radar performance.
@@ -129,14 +120,14 @@ Communication Links: In avionics SATCOM or telemetry systems, minimizing IL ensu
 
 <h2>8. S MAtrix for 2-Port Network</h2>
 
-Introduction:
+<h2>Introduction:</h2>
 The S-Matrix or scattering matrix is a fundamental tool in RF and microwave engineering used to describe how signals behave in a network. It relates the incident waves and reflected waves at each port of a multi-port network. For a two-port network, the S-matrix is written as:
 
 <img width="885" height="412" alt="image" src="https://github.com/user-attachments/assets/26b3bd29-428c-4516-8d30-a8d42ccf62d8" />
 
 <img width="1352" height="581" alt="image" src="https://github.com/user-attachments/assets/61b28d96-510b-44b9-bf4a-74fb4f78fcb0" />
 
-Relevance in Avionics Systems:
+<h2>Relevance in Avionics Systems:</h2>
 
 Filters and Couplers: 𝑆21 is used to calculate insertion loss, 𝑆11 for return loss.
 Antenna Networks: S-matrix helps engineers ensure minimal reflection and crosstalk between ports.
@@ -146,7 +137,7 @@ Radar Modules: Precise S-parameter analysis guarantees efficient power transfer,
 
 <img width="997" height="725" alt="image" src="https://github.com/user-attachments/assets/d4e2d118-03fa-4740-bb75-67a79f049d9b" />
 
-Problem Statement
+<h2>Problem Statement</h2>
 
 Consider a 2-port network with the following S-parameters: 𝑆11 = 0.1∠0∘ , 𝑆12 = 0.8∠−45∘ , 𝑆21 = 0.8∠45∘ , 𝑆22 = 0.2∠0∘.
 Task: Using the symmetry (reciprocity) and unitary (lossless) properties of the S-matrix, determine whether the network is reciprocal and whether it is lossless.
@@ -192,7 +183,8 @@ The network is not lossless, because the unitary condition is violated (
 
 <img width="1087" height="574" alt="image" src="https://github.com/user-attachments/assets/d99e885c-2b0b-42d2-b442-0b2448fd838b" />
 
-Application in Avionics Systems
+<h2>Application in Avionics Systems:</h2>
+
 Radar Filters and Couplers: S-parameter analysis is used to design stripline or microstrip filters, ensuring low insertion loss and high return loss.
 Antenna Networks: Impedance-based S-parameters help match antennas to transmitters and receivers, minimizing reflections in high-frequency avionics systems.
 Backplane Interconnects: Multi-layer stripline interconnections in avionics modules are analyzed using S-parameters to ensure signal integrity.
@@ -205,7 +197,8 @@ Wavelength and velocity of propagation are the underlying principles that govern
 
 <img width="1104" height="660" alt="image" src="https://github.com/user-attachments/assets/7efe1ab1-fa63-453d-a3f9-eebcf5c2be17" />
 
-Importance in Avionics Systems:
+<h2>Importance in Avionics Systems:</h2>
+
 Determines resonant lengths for antennas, filters, and stripline structures.
 Affects phase relationships in phased-array radar systems, ensuring accurate beam steering.
 Helps in timing and signal integrity for high-speed digital interconnects, such as backplanes in avionics modules.
