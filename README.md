@@ -198,10 +198,12 @@ Helps in timing and signal integrity for high-speed digital interconnects, such 
 Provides a baseline for designing microstrip and stripline circuits, since all reflections, losses, and S-parameter behaviors are influenced by the propagation characteristics.
 
 <h2>Conclusion</h2>
+
 Microstrip lines and striplines are the backbone of high-frequency planar transmission systems, widely used in modern avionics applications. These transmission lines enable efficient signal routing, precise impedance control, and minimal interference, which are critical for radar, communication, and navigation modules in aircraft and UAVs.
 Through the analysis of S-parameters, engineers can quantify reflections, power delivery, insertion loss, and signal transmission. Metrics like reflection coefficient, VSWR, return loss, and insertion loss allow designers to optimize filters, couplers, antennas, and multi-layer PCB interconnects to ensure maximum signal fidelity.
 At the fundamental level, wavelength and velocity of propagation dictate how electromagnetic signals travel through microstrip and stripline circuits. Accurate knowledge of these parameters ensures proper phase alignment, timing, and resonant behavior, which is essential for applications like phased-array radars, high-speed communication backplanes, and precision avionics sensors.
 Ultimately, this assessment highlights that understanding planar transmission lines, S-parameters, and related RF concepts is crucial for designing robust and high-performance avionics systems. The integration of these theories into real-world applications demonstrates how electronics engineering transforms into mission-critical solutions, bridging the gap between academic knowledge and operational excellence in aviation technology.
+
 
 <img width="1181" height="694" alt="image" src="https://github.com/user-attachments/assets/6e3a010a-b06a-4262-bee5-2ea8144269b7" />
 
