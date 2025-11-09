@@ -152,25 +152,38 @@ Task: Using the symmetry (reciprocity) and unitary (lossless) properties of the 
 
 Solution
 Step 1: Check Reciprocity (Symmetry Property)
+
 A reciprocal network satisfies:
+
 𝑆12 = 𝑆21 , Convert to rectangular form (optional) to compare phase:
+
 𝑆12 = 0.8∠−45∘ = 0.5657 − 𝑗0.5657 , 𝑆21 = 0.8∠45∘ = 0.5657+j0.5657
+
 The magnitudes are equal:
+
 ∣𝑆12∣ = ∣𝑆21∣ = 0.8
+
 Since the magnitudes of transmission coefficients are equal, the network is reciprocal in terms of power transmission.
 
 Step 2: Check Losslessness (Unitary Property)
+
 For a lossless network, the S-matrix satisfies:
+
 𝑆𝑆† = I , For a 2-port network, this implies:
+
 ∣𝑆11∣ ^ 2 + ∣𝑆21∣ ^ 2 = 1 , ∣𝑆12∣ ^ 2 + ∣𝑆22∣ ^ 2 = 1
+
 Compute each sum of squares:
+
 ∣𝑆11∣ ^ 2 + ∣𝑆21∣ ^ 2 = (0.1) ^ 2 + (0.8) ^ 2 = 0.01 + 0.64 = 0.65 ≠ 1
+
 ∣𝑆12∣ ^ 2 + ∣𝑆22∣ ^ 2 = (0.8) ^ 2 + (0.2) ^ 2 = 0.64 + 0.04 = 0.68 ≠ 1
+
 Since these sums are not equal to 1, the network does not satisfy the unitary property and is therefore not lossless.
+
 Step 3: Conclusion
 
-The network is reciprocal, because 
-∣𝑆12∣ = ∣𝑆21∣
+The network is reciprocal, because |𝑆12∣ = ∣𝑆21∣
 The network is not lossless, because the unitary condition is violated (
 ∣S11∣ ^ 2 + ∣𝑆21∣ ^ 2 ≠ 1 and ∣𝑆12∣ ^ 2 + ∣𝑆22∣ ^ 2 ≠ 1
 
