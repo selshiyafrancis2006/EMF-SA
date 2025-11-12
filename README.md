@@ -110,7 +110,7 @@ IL (dB) = −20log10∣𝑆21∣
 Low IL → Most power reaches the next stage (desirable)
 High IL → Significant power is lost (undesirable)
 
-<img width="802" height="590" alt="image" src="https://github.com/user-attachments/assets/e5921abc-fb59-4945-868d-5e76e338c1f3" />
+<img width="562" height="398" alt="image" src="https://github.com/user-attachments/assets/f4ff29fc-3f81-4279-9d68-b9ed2f002d3e" />
 
 
 <h2>Application in Avionics Systems:</h2>
@@ -186,8 +186,7 @@ The network is not lossless, because the unitary condition is violated (
 
 <img width="1087" height="574" alt="image" src="https://github.com/user-attachments/assets/d99e885c-2b0b-42d2-b442-0b2448fd838b" />
 
-<img width="842" height="596" alt="image" src="https://github.com/user-attachments/assets/c633013d-48e2-4d35-9214-527e3d659970" />
-
+<img width="549" height="365" alt="image" src="https://github.com/user-attachments/assets/b3ca774f-6b2f-417c-8dd1-be2aad7ed7e5" />
 
 
 <h2>Application in Avionics Systems:</h2>
@@ -204,7 +203,8 @@ Wavelength and velocity of propagation are the underlying principles that govern
 
 <img width="1104" height="660" alt="image" src="https://github.com/user-attachments/assets/7efe1ab1-fa63-453d-a3f9-eebcf5c2be17" />
 
-<img width="795" height="554" alt="image" src="https://github.com/user-attachments/assets/e0fe3359-c82f-4246-abd1-2e7b2c5ab3cf" />
+<img width="559" height="429" alt="image" src="https://github.com/user-attachments/assets/d8eba589-371d-4402-b130-3cce77c0b3b2" />
+
 
 
 <h2>Importance in Avionics Systems:</h2>
