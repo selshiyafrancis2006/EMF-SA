@@ -110,6 +110,9 @@ IL (dB) = −20log10∣𝑆21∣
 Low IL → Most power reaches the next stage (desirable)
 High IL → Significant power is lost (undesirable)
 
+<img width="802" height="590" alt="image" src="https://github.com/user-attachments/assets/e5921abc-fb59-4945-868d-5e76e338c1f3" />
+
+
 <h2>Application in Avionics Systems:</h2>
 
 Radar Modules: Filters and couplers must have low insertion loss to maintain radar pulse strength and detection range.
