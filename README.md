@@ -225,12 +225,6 @@ Ultimately, this assessment highlights that understanding planar transmission li
 <img width="1181" height="694" alt="image" src="https://github.com/user-attachments/assets/6e3a010a-b06a-4262-bee5-2ea8144269b7" />
 
 
-
-
-
-
-
-
 <h2>References</h2>
 
 1.Pozar, D. M., Microwave Engineering (5th Ed.), Wiley, 2021.
