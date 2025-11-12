@@ -183,7 +183,8 @@ The network is not lossless, because the unitary condition is violated (
 
 <img width="1087" height="574" alt="image" src="https://github.com/user-attachments/assets/d99e885c-2b0b-42d2-b442-0b2448fd838b" />
 
-<img width="899" height="814" alt="image" src="https://github.com/user-attachments/assets/43adac9d-074f-4839-b693-2862330b24da" />
+<img width="842" height="596" alt="image" src="https://github.com/user-attachments/assets/c633013d-48e2-4d35-9214-527e3d659970" />
+
 
 
 <h2>Application in Avionics Systems:</h2>
