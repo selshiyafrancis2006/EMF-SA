@@ -216,23 +216,18 @@ Ultimately, this assessment highlights that understanding planar transmission li
 
 <h2>References</h2>
 
-1.David M. Pozar, Microwave Engineering, 5th Edition, Wiley, 2021.
-Comprehensive coverage of microstrip and stripline transmission lines, S-parameters, reflection, VSWR, and real-world RF design examples.
+1.Pozar, D. M., Microwave Engineering (5th Ed.), Wiley, 2021.
+URL: https://books.google.com.au/books/about/Microwave_Engineering_5e.html?id=Ngkp0AEACAAJ
+ 
+2.Kraus, J. D. & Marhefka, R. J., Antennas for All Applications (3rd Ed.), McGraw-Hill, 2002.
+URL: https://books.google.com/books/about/Antennas_for_All_Applications.html?id=V6pSPgAACAAJ
+ 
+3.Gonzalez, G., Microwave Transistor Amplifiers: Analysis and Design (2nd Ed.), Prentice Hall, 1997.
+URL: https://books.google.com/books/about/Microwave_transistor_amplifiers.html?id=bwpTAAAAMAAJ
+ 
+4.Collin, R. E., Foundations for Microwave Engineering (2nd Ed.), Wiley‐IEEE Press, 2001.
+URL: (No free full page preview found in my search) → you may search “Foundations for Microwave Engineering R. E. Collin Wiley-IEEE” for purchase/preview. 
 
-2.John D. Kraus & Ronald J. Marhefka, Antennas for All Applications, 3rd Edition, McGraw-Hill, 2002.
-Includes sections on microstrip patch antennas and their use in avionics and radar systems.
+5.Hong, J. S. & Lancaster, M. J., Microstrip Filters for RF/Microwave Applications, Wiley, 2001.
+URL: https://onlinelibrary.wiley.com/doi/book/10.1002/0471221619
 
-3.Gonzalez, Gonzalo, Microwave Transistor Amplifiers: Analysis and Design, 2nd Edition, Prentice Hall, 1997.
-Covers S-parameters, power transfer, and practical RF circuit design considerations.
-
-4.R. E. Collin, Foundations for Microwave Engineering, 2nd Edition, Wiley-IEEE Press, 2001.
-Excellent for understanding planar transmission lines, TEM and quasi-TEM propagation, and network analysis.
-
-5.Pozar, D. M., “Planar Microwave Engineering in Avionics Systems,” IEEE Transactions on Microwave Theory and Techniques, 2018.
-Discusses microstrip/stripline applications in radar and communication modules.
-
-6.Xu, W., et al., “S-Parameter Analysis of High-Speed Backplane Interconnects for Aerospace Applications,” IEEE Access, 2020.
-Explains S-parameter measurement and modeling in high-frequency avionics PCBs.
-
-7.Hong, J. S., & Lancaster, M. J., Microstrip Filters for RF/Microwave Applications, Wiley, 2001.
-Focuses on planar filter design using microstrip and stripline structures.
