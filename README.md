@@ -204,7 +204,7 @@ Wavelength and velocity of propagation are the underlying principles that govern
 
 <img width="1104" height="660" alt="image" src="https://github.com/user-attachments/assets/7efe1ab1-fa63-453d-a3f9-eebcf5c2be17" />
 
-<img width="794" height="514" alt="image" src="https://github.com/user-attachments/assets/8126010f-bfd2-4b4f-be1f-27ea8d878a6b" />
+<img width="795" height="554" alt="image" src="https://github.com/user-attachments/assets/e0fe3359-c82f-4246-abd1-2e7b2c5ab3cf" />
 
 
 <h2>Importance in Avionics Systems:</h2>
